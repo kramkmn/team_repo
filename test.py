@@ -1,6 +1,7 @@
 import math
 def findarea():
+	pi = math.pi()
 	r = 4
-	area = math.pi()*r*r
+	area = pi*r*r
 	return area
 print(findarea())
